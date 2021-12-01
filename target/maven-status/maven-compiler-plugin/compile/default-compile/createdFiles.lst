@@ -1,0 +1,12 @@
+com\aviles\servlets\RegisterServlet.class
+com\aviles\tags\CopyrightTag.class
+MainApp.class
+com\aviles\util\CredentialsDbUtil.class
+com\aviles\entity\Product.class
+com\aviles\servlets\LoginServlet.class
+com\aviles\servlets\HomeServlet.class
+com\aviles\service\EmfService.class
+com\aviles\util\ProductDBUtil.class
+com\aviles\entity\User.class
+com\aviles\entity\Credentials.class
+com\aviles\util\UserDbUtil.class

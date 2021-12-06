@@ -26,6 +26,7 @@
           <element id="library" level="project" name="Maven: jakarta.persistence:jakarta.persistence-api:3.0.0" />
           <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
           <element id="library" level="project" name="Maven: javax.mail:javax.mail-api:1.6.2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1.1" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.27" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:9.0.5" />

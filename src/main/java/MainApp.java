@@ -1,7 +1,9 @@
 import com.aviles.entity.Credentials;
+import com.aviles.entity.Product;
 import com.aviles.entity.User;
 import com.aviles.service.EmfService;
 import com.aviles.util.CredentialsDbUtil;
+import com.aviles.util.ProductDBUtil;
 import com.aviles.util.UserDbUtil;
 
 import javax.persistence.EntityManager;
@@ -14,12 +16,9 @@ public class MainApp {
 
         EntityManager emf = EmfService.getEntityManagerFactory().createEntityManager();
 
-        String username = "jdoe";
-        String pass = "testpass";
+        List<Product> products = ProductDBUtil.getProducts();
 
-        User tempUser = CredentialsDbUtil.getUserFromCreds(username, pass);
-
-        System.out.println("TempUser: " + tempUser);
+        System.out.println("Products: " + products.toString());
 
         System.out.println("the end");
     }

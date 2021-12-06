@@ -14,6 +14,7 @@
 </head>
 
 <body>
+<div id="container">
 <header>
     <nav id="navbar">
         <div id="brand">
@@ -25,6 +26,7 @@
                 <li><a href="welcome.jsp">Home</a></li>
                 <li><a href="about.jsp">About</a></li>
                 <li><a href="login.jsp">Login</a></li>
+                <li><a href="shopping-cart.jsp"><i class="fas fa-shopping-cart"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -67,7 +69,7 @@
         </p>
     </div>
 </footer>
-
+</div>
 </body>
 
 </html>

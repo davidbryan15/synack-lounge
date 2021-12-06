@@ -17,16 +17,16 @@ public class Product {
     private String productImgUrl;
 
     @Column(name = "product_quantity")
-    private String productQuantity;
+    private int productQuantity;
 
     @Column(name = "product_price")
-    private String productPrice;
+    private double productPrice;
 
     public Product(){
 
     }
 
-    public Product(String productName, String productImgUrl, String productQuantity, String productPrice) {
+    public Product(String productName, String productImgUrl, int productQuantity, double productPrice) {
         this.productName = productName;
         this.productImgUrl = productImgUrl;
         this.productQuantity = productQuantity;
@@ -57,19 +57,30 @@ public class Product {
         this.productImgUrl = productImgUrl;
     }
 
-    public String getProductQuantity() {
+    public int getProductQuantity() {
         return productQuantity;
     }
 
-    public void setProductQuantity(String productQuantity) {
+    public void setProductQuantity(int productQuantity) {
         this.productQuantity = productQuantity;
     }
 
-    public String getProductPrice() {
+    public double getProductPrice() {
         return productPrice;
     }
 
-    public void setProductPrice(String productPrice) {
+    public void setProductPrice(double productPrice) {
         this.productPrice = productPrice;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId=" + productId +
+                ", productName='" + productName + '\'' +
+                ", productImgUrl='" + productImgUrl + '\'' +
+                ", productQuantity='" + productQuantity + '\'' +
+                ", productPrice='" + productPrice + '\'' +
+                '}';
     }
 }

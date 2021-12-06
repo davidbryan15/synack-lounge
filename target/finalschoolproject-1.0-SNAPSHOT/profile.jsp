@@ -13,6 +13,7 @@
 </head>
 
 <body>
+<div id="container">
   <!-- header -->
   <header>
     <nav id="navbar">
@@ -25,6 +26,7 @@
           <li><a href="welcome.jsp">Home</a></li>
           <li><a href="about.jsp">About</a></li>
           <li><a href="profile.jsp" class="current">Profile</a></li>
+          <li><a href="shopping-cart.jsp"><i class="fas fa-shopping-cart"></i></a></li>
         </ul>
       </div>
     </nav>
@@ -60,6 +62,7 @@
          <p> <da:Copyright/> SynAck Lounge LLC. All Rights Reserved.</p>
     </div>
   </footer>
+</div>
 </body>
 
 </html>

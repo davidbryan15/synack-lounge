@@ -14,6 +14,7 @@
 </head>
 
 <body>
+<div id="container">
   <header>
     <nav id="navbar">
       <div id="brand">
@@ -49,7 +50,7 @@
          <p> <da:Copyright/> SynAck Lounge LLC. All Rights Reserved.</p>
     </div>
   </footer>
-
+</div>
 </body>
 
 </html>

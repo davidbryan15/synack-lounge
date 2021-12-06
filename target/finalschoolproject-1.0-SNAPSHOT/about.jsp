@@ -14,6 +14,7 @@
 </head>
 
 <body>
+<div id="container">
   <header>
     <nav id="navbar">
       <div id="brand">
@@ -30,6 +31,7 @@
   		  <c:if test="${sessionScope.loggedIn == null || sessionScope.loggedIn == false }">
   	  		<li><a href="login.jsp">Login</a></li>
   		  </c:if>
+            <li><a href="shopping-cart.jsp"><i class="fas fa-shopping-cart"></i></a></li>
         </ul>
       </div>
     </nav>
@@ -49,7 +51,7 @@
          <p> <da:Copyright/> SynAck Lounge LLC. All Rights Reserved.</p>
     </div>
   </footer>
-
+</div>
 </body>
 
 </html>

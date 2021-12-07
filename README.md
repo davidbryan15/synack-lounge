@@ -1,4 +1,4 @@
-# synack-lounge
+# SynAck-lounge
 Crud App using **_basic_** functionality to include Java Servlets, JSP, JSTL, JPA, and Java Mail. No Frameworks.
 
 This app is intended to focus on the fundamental technology that is used under big frameworks suchs as Spring, ThymLeaf, and Hibernate. 

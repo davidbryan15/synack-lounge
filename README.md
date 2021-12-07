@@ -27,4 +27,4 @@ Once you have cloned the reposityory to your local device, you must open the pro
                 <property name="javax.persistence.jdbc.password" value="PASSWORD" />
             </properties>
         ```
-Lastly, prior to running the app you will need to download, open, and run the finalproject.sql in the root directory of this folder to build out the same database structure that is being used in the app.
+Lastly, prior to running the app you will need to download, open, and run the finalproject.sql in the SQL directory of the root folder to build out the same database structure that is being used in the app.

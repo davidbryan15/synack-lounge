@@ -208,7 +208,7 @@ label {
 
 #products {
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -225,7 +225,7 @@ label {
   background: none;
   color: var(--primary-clr);
   border-radius: 5px;
-  width: 45%;
+  width: 52%;
   margin: 7px 0;
 }
 

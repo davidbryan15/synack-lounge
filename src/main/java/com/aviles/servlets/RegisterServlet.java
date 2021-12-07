@@ -2,8 +2,10 @@ package com.aviles.servlets;
 
 import com.aviles.entity.Credentials;
 import com.aviles.entity.User;
+import com.aviles.util.MailUtil;
 import com.aviles.util.UserDbUtil;
 
+import javax.mail.MessagingException;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -51,6 +53,19 @@ public class RegisterServlet extends HttpServlet {
 
             //set loggedin value as true for visibility factors
             session.setAttribute("loggedIn", true);
+
+            //send new user email reqistration
+            String from = "synack-admin@gmail.com";
+            String to= tempUser.getEmail();
+            String subject = "Thank you for registering!";
+            String body = "Thank you for registering!! You can now enjoy all the benefits of being a part of the SynAck Community!";
+
+            try {
+                MailUtil.sendMessage(from, to, subject, body, false);
+            }
+            catch (MessagingException messagingException){
+                messagingException.printStackTrace();
+            }
 
             url = "/user-confirmation.jsp";
         }

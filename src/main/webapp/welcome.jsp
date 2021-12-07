@@ -61,8 +61,6 @@
                                 <h2>${product.productName}</h2>
                                 <p>Price: <fmt:setLocale value="en_us"/>
                                           <fmt:formatNumber value="${product.productPrice}" type="currency"/> </p>
-<%--                                <fmt:setLocale value="en_us"/>--%>
-<%--                                <fmt:formatNumber value="${product.productPrice}" type="currency"/>--%>
                                 <p>Quantity: ${product.productQuantity}</p>
                                 <input type="number" name="quantity" value="1" min="1" max="${product.productQuantity}">
                                 <input type="submit" value="Add to Cart">
